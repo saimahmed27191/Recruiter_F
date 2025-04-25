@@ -1,0 +1,15 @@
+header {
+    padding: 16px 32px;
+    border-bottom: 1px solid #e5e7eb;
+}
+.container{
+    max-width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.logo-img {
+    display: block;
+    width: 130px;
+    height: 42px;
+}

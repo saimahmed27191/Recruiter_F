@@ -1,0 +1,19 @@
+import { createBrowserRouter } from "react-router-dom";
+import App from "../App";
+import Home from "../pages/Home";
+console.log("✅ Home page loaded:", Home);
+import Interview from "../pages/Interview";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />, 
+    children: [
+      { index: true, element: <Home /> },
+      { path: "interview", element: <Interview /> },
+      // { path: "contact", element: <Contact /> },
+    ],
+  },
+]);
+
+export default router;

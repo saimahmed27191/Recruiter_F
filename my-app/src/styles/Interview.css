@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.interview-setup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 32px;
+}
+
+.interview-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 620px;
+    border-radius: 16px;
+    padding: 61px 74px 44px 74px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.setup-title {
+    font-family: "Parkinsans";
+    font-size: 40px;
+    color: #1F524D;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.setup-title span {
+    color: #1F524D;
+    font-family: "Parkinsans";
+    font-weight: 500;
+}
+
+.setup-subtitle {
+    font-family: "Parkinsans";
+    font-size: 17px;
+    color: #475569;
+    margin-bottom: 34px;
+}
+
+.run-check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.run-check h3 {
+    font-family: "Parkinsans";
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1F524D;
+}
+
+.run-check-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 22px 12px 20px;
+    background-color: #1F524D;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 110px;
+}
+
+.refresh-img {
+    width: 24px;
+    height: 24px;
+}
+
+.refresh-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.run-check-btn p {
+    margin: 0px;
+    font-size: 12px;
+    font-family: "Parkinsans";
+}
+
+.system-check {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.check-item {
+    background-color: #fff;
+    color: #1F524D;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px;
+    padding: 14px 23px 12px 15px;
+    font-family: "Parkinsans";
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.camera-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.camera-wrap p {
+    font-family: Parkinsans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #1F524D;
+    margin: 0px;
+}
+
+.correct-img {
+    width: 17px;
+    height: 17px;
+}
+
+.camera-img {
+    width: 27px;
+    height: 17px;
+}
+
+.microphone-img {
+    width: 16px;
+    height: 24px;
+}
+
+.internet-img {
+    width: 21px;
+    height: 18px;
+}
+
+.sound-img {
+    width: 25px;
+    height: 22px;
+}
+
+.camera-preview {
+    margin: 15px 0;
+}
+
+.camera-box {
+    background-color: #134e4a;
+    color: white;
+    height: 302px;
+    border-radius: 10px;
+    border: 2px dashed #1F524D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-family: Parkinsans;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.select-label {
+    font-family: Parkinsans;
+    font-weight: 600;
+    font-size: 17px;
+    color: #1F524D;
+    margin-bottom: 12px;
+}
+
+.ai-interviewers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.interviewer-card {
+    background-color: #fff;
+    padding: 14px 58px 12px;
+    border: 1px solid #D0D0D0;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Parkinsans";
+    font-weight: 400;
+    font-size: 12px;
+    color: #1F524D;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.interviewer-card:hover {
+    background-color: #e0f2fe;
+    box-shadow: 0px 4px 12px rgba(14, 165, 233, 0.15);
+}
+
+.avatar-men {
+    width: 61px;
+    height: 73px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+.avatar-female {
+    width: 55px;
+    height: 67px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.interview-para {
+    font-family: "Parkinsans";
+    font-weight: 400;
+    font-size: 12px;
+    color: #1F524D;
+    text-align: center;
+    margin: 0;
+}
+
+.interview-span {
+    font-family: "Parkinsans";
+    font-weight: 400;
+    font-size: 11px;
+    color: #6E6E6E;
+    text-align: center;
+}
+
+.start-button {
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-family: "Parkinsans";
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 110px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 12px;
+}
+
+.start-button:hover {
+    background-color: #115e59;
+}
+
+.note {
+    font-family: "Parkinsans";
+    font-size: 14px;
+    color: #464646;
+    margin-top: 26px;
+}
+
+.tips-card {
+    background: white;
+    width: 100%;
+    max-width: 768px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.tips-card h4 {
+    font-family: Parkinsans;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+    color: #1F524D;
+    background-color: #fff;
+    padding: 16px 24px;
+    margin: 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tips-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tips-card ul li {
+    font-family: Parkinsans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #464646;
+    padding: 12px 24px;
+}
+
+.tips-card ul li:nth-child(odd) {
+    background-color: #E5FFFD;
+}
+
+.tips-card ul li:nth-child(even) {
+    background-color: #fff;
+}
