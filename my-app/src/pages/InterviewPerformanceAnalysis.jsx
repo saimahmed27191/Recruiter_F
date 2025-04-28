@@ -128,7 +128,7 @@ const InterviewPerformanceAnalysis = () => {
 
       <div className="audio-player">
         <h3>Interview Audio</h3>
-        <audio controls src={`http://127.0.0.1:99${audioUrl}`} />
+        <audio controls src={`https://recuiterdemoback.root.sx${audioUrl}`} />
       </div>
     </div>
   );

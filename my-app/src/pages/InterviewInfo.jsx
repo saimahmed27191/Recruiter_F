@@ -41,7 +41,7 @@ const InterviewInfo = () => {
 
   useEffect(() => {
     if (audioUrl) {
-      audioRef.current = new Audio(`http://127.0.0.1:99${audioUrl}`);
+      audioRef.current = new Audio(`https://recuiterdemoback.root.sx${audioUrl}`);
       audioRef.current.addEventListener("ended", () => {
         setIsPlaying(false);
         setReadyToRecord(true);
@@ -139,7 +139,7 @@ const InterviewInfo = () => {
     formData.append("audio", audioBlob, "answer.mp3");
 
     try {
-      const response = await fetch("http://127.0.0.1:99/submit_answer", {
+      const response = await fetch("https://recuiterdemoback.root.sx/submit_answer", {
         method: "POST",
         body: formData,
       });
