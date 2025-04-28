@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+* {
+  margin: 0;
+}
+.container {
+  max-width: 100%;
+  padding: 80px 300px 100px;
+}
+
+.analysis-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  font-family: "Parkinsans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f524d;
+}
+
+.analysis-head h1 {
+  font-family: "Parkinsans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f524d;
+}
+
+.highlight {
+  font-weight: 500;
+}
+
+.download-button {
+  background-color: #1f524d;
+  color: white;
+  border: none;
+  padding: 11px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-family: "Parkinsans";
+}
+
+.stats {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+  font-family: "Parkinsans";
+}
+
+.stat-box {
+  flex: 1;
+  background: white;
+  color: #1f524d;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px 0px #00000024;
+}
+
+.stat-box h2 {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Parkinsans";
+  font-size: 20px;
+  color: #0f4733;
+}
+.stat-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stat-head h2{
+  margin-top: 0px !important;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #0f4733;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.feedback,
+.improvement {
+  flex: 1;
+  background: white;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px 0px #00000024;
+}
+
+.feedback h2,
+.improvement h2 {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #1f524d;
+  font-family: "Parkinsans";
+}
+
+.feedback-item {
+  margin-bottom: 24px;
+}
+
+.feedback-item h3 {
+  font-family: "Parkinsans";
+  font-weight: 500;
+  font-size: 17px;
+  color: #1f524d;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.feedback-item p {
+  font-family: "Parkinsans";
+  font-size: 14px;
+  color: #666;
+}
+
+.improvement ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.improvement li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-family: "Parkinsans";
+  color: #666;
+}
+
+.schedule-button {
+  background-color: #1F524D;
+  color: white;
+  border: none;
+  padding: 13px 19px;
+  border-radius: 25px;
+  width: 100%;
+  font-family: "Parkinsans";
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}

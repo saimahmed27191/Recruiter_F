@@ -3,6 +3,8 @@ import App from "../App";
 import Home from "../pages/Home";
 console.log("✅ Home page loaded:", Home);
 import Interview from "../pages/Interview";
+import InterviewInfo from "../pages/InterviewInfo";
+import InterviewPerformanceAnalysis from "../pages/InterviewPerformanceAnalysis";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +13,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "interview", element: <Interview /> },
-      // { path: "contact", element: <Contact /> },
+      { path: "info", element: <InterviewInfo /> },
+      { path: "analysis", element: <InterviewPerformanceAnalysis /> },
     ],
   },
 ]);
