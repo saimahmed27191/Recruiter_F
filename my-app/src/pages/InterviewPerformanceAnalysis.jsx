@@ -53,7 +53,7 @@ const InterviewPerformanceAnalysis = () => {
             <h3>
               Communication Skills <span>90%</span>
             </h3>
-            <p>
+            <p className="feedback-para">
               Excellent articulation and clear communication. Maintained good
               eye contact throughout.
             </p>
@@ -63,7 +63,7 @@ const InterviewPerformanceAnalysis = () => {
             <h3>
               Technical Knowledge <span>90%</span>
             </h3>
-            <p>
+            <p className="feedback-para">
               Strong understanding of core concepts. Could improve on specific
               implementation details.
             </p>
