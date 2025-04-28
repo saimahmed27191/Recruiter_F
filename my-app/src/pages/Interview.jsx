@@ -59,7 +59,7 @@ const Interview = () => {
         formDataApi.append("resume", formData.resume);
       }
 
-      const response = await fetch("http://127.0.0.1:6666/start_interview", {
+      const response = await fetch("http://127.0.0.1:99/start_interview", {
         method: "POST",
         body: formDataApi,
       });
