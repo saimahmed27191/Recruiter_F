@@ -99,24 +99,26 @@ const InterviewPerformanceAnalysis = () => {
               <h3>
                 {item.category} <span>{item.score}/10</span>
               </h3>
-              <p>{item.comment}</p>
+              <p className="feeditem-para">{item.comment}</p>
             </div>
           ))}
         </div>
 
         <div className="improvement">
-          <h2>Areas for Improvement</h2>
-          <ul>
-            {feedbackData.improvements.map((improvement, index) => (
-              <li key={index}>
-                <FiAlertTriangle /> {improvement}
-              </li>
-            ))}
-          </ul>
-          <button className="schedule-button">
-            Schedule a Next Practice Interview
-          </button>
-        </div>
+  <h2>Areas for Improvement</h2>
+  <ul className="improvement-inner">
+    {feedbackData.improvements.map((improvement, index) => (
+      <li key={index}>
+        <FiAlertTriangle /> {improvement}
+      </li>
+    ))}
+  </ul>
+
+  <button className="schedule-button">
+    Schedule a Next Practice Interview
+  </button>
+</div>
+
       </div>
 
       <div className="summary-section">

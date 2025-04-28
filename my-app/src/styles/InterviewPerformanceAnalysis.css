@@ -122,6 +122,13 @@
 
 .feedback-item {
   margin-bottom: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.feedback-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .feedback-item h3 {
@@ -137,29 +144,36 @@
 .feedback-item p {
   font-family: "Parkinsans";
   font-size: 14px;
-  color: #666;
+  color: #464646;
 }
-
-.feedback-para {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #D9D9D9;
-}
-
-.improvement ul {
+.improvement-inner {
   list-style: none;
   padding: 0;
   margin: 0 0 32px 0;
 }
-
-.improvement li {
+.improvement-inner li {
   display: flex;
-  align-items: flex-start;
-  gap: 8px;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 16px;
   font-size: 14px;
-  font-family: "Parkinsans";
-  color: #666;
+  font-family: "Parkinsans", sans-serif;
+  color: #464646;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D9D9D9;
 }
+.improvement-inner li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.improvement-inner li svg {
+  flex-shrink: 0;
+  width: 21px;
+  height: 19px;
+  color: #1F524D;
+}
+
 
 .schedule-button {
   background-color: #1F524D;
@@ -192,13 +206,12 @@
   max-width: 600px;
   outline: none;
   border-radius: 8px;
-  box-shadow: 0px 4px 25px 0px #00000024;
 }
 
 .audio-player p {
   font-family: "Parkinsans";
   font-size: 14px;
-  color: #666; /* Matches summary-section p */
+  color: #464646; /* Matches summary-section p */
   margin: 0;
 }
 

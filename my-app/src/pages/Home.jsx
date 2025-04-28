@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import "../styles/Home.css";
 import upload_img from "../assets/upload-img.svg";
 import { FormContext } from "./FormContext";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -100,7 +101,7 @@ const Home = () => {
                 />
               </div>
               <button type="submit" className="submit-button">
-                Start Interview →
+               Start Interview <FaArrowRightLong />
               </button>
             </div>
           </form>

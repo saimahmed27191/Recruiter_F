@@ -40,6 +40,10 @@
   gap: 10px;
 }
 
+.question-feedback {
+  margin-left: 23px;
+  margin-bottom: 30px;
+}
 .panel {
   flex: 1;
   background-color: #2e2f38;

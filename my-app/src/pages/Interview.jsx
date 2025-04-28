@@ -12,6 +12,7 @@ import camera_white from "../assets/camera-white.svg";
 import men_img from "../assets/men.png";
 import women_img from "../assets/female.png";
 import { FormContext } from "./FormContext";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Interview = () => {
   const navigate = useNavigate();
@@ -184,7 +185,11 @@ const Interview = () => {
           onClick={handleStartInterview}
           disabled={isLoading}
         >
-          {isLoading ? "Starting..." : "Start Interview →"}
+          {isLoading ? "Starting..." : (
+  <>
+    Start Interview <FaArrowRightLong />
+  </>
+)}
         </button>
         <p className="note">
           Your interview will begin in a room-like environment.
